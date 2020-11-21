@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mcdonald's Order Form</title>
+		<link rel="stylesheet" type="text/css" href="mcdo.css">
+	</head>
+	<script src="mcdo.js"></script>
+	<body>
+    <img id="logo" src="https://www.freepnglogos.com/uploads/mcdonalds-png-logo/mcdonalds-png-logo-simple-m-1.png" class="animate__animated animate__bounceInDown">
+
+      <div class="img-order" id="img"></div>
+
+      <div class="img-list">
+      <p id="odr-1">Burger: </p> <br><br>
+      <p id="odr-2">Fries: </p> <br> <br>
+      <p id="odr-3">Chicken: </p> <br> <br>
+      <p id="odr-4">Spaghetti: </p><br> <br>
+      <p id="odr-5">Sundae: </p><br> <br>
+      <h1 id="odr-total">Total: </h1>
+      </div>
+
+      <div class="order-btn">
+      <div id="burger" onclick="brgr()">BRGR</div>
+      <div id="fries" onclick="frs()">FRIES</div>
+      <div id="chicken" onclick="chick()">CHCKN</div>
+      <div id="spag" onclick="spageti()">SPAG</div>
+      <div id="sundae" onclick="snd()">SND</div>
+      <div id="total" onclick="total()">TOTAL</div>
+      </div>
+
+      <button onclick=cancel()>Cancel Order </button>
+</body>
+</html>
