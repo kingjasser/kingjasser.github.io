@@ -1,0 +1,18 @@
+
+body{
+ min-height: 100vh;
+ min-width: 480px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(29,79,150);
+}
+
+div {
+  height: 1020px;
+  width: 480px;
+  background-image: url("home.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
