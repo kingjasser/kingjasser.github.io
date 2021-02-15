@@ -1,8 +1,8 @@
 
 body{
  min-height: 100vh;
- min-width: 480px;
- max-width: 480px;
+ min-width: 720px;
+ max-width: 720px;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -10,8 +10,8 @@ body{
 }
 
 div {
-  height: 1020px;
-  width: 480px;
+  height: 1560px;
+  width: 720px;
   background-image: url("home.jpg");
   background-repeat: no-repeat;
   background-size: contain;
