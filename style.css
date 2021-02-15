@@ -1,62 +1,18 @@
-@import url(http://db.onlinewebfonts.com/c/69dbc1186412d7831b88d8a78a360360?family=DIN+Condensed+Web);
 
 * {
   margin: 0;
   padding: 0;
 }
 
-@font-face {font-family: "DIN Condensed Web"; src: url("http://db.onlinewebfonts.com/t/69dbc1186412d7831b88d8a78a360360.eot");
-src: url("http://db.onlinewebfonts.com/t/69dbc1186412d7831b88d8a78a360360.eot?#iefix") format("embedded-opentype"),
-url("http://db.onlinewebfonts.com/t/69dbc1186412d7831b88d8a78a360360.woff2") format("woff2"),
-url("http://db.onlinewebfonts.com/t/69dbc1186412d7831b88d8a78a360360.woff") format("woff"),
-url("http://db.onlinewebfonts.com/t/69dbc1186412d7831b88d8a78a360360.ttf") format("truetype"),
-url("http://db.onlinewebfonts.com/t/69dbc1186412d7831b88d8a78a360360.svg#DIN Condensed Web") format("svg"); }
-
-html,body{
+html,body {
   height: 100%;
 }
 
-div{
+.bg{
   height: 100%;
-  background: url("cover.jpg");
+  background: url("mainBg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-}
-
-p {
-  font-size: 2vw;
-  font-family: "DIN Condensed Web";
-  text-align: center;
-  text-transform: uppercase;
-  padding: 5px;
-  position:absolute;
-  top:13vh;
-  left: 50%;
-  transform: translate(-50%,50%);
-}
-
-h1{
-  font-size: 12vw;
-  line-height: 1px;
-  font-family: "DIN Condensed Web";
-  text-align: center;
-  letter-spacing: 0px;
-  text-transform: uppercase;
-  padding: 5px;
-  position:absolute;
-  top: 20vh;
-  left: 50%;
-  transform: translate(-50%,50%);
-}
-
-
-
-.green{
-  color: #8db600;
-}
-
-.white{
-  color: white;
 }
