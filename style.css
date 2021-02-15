@@ -1,11 +1,55 @@
-body{
-  height: 1560px;
-  width: 720px;
-  background-image: url("home.jpg");
+@import url(http://db.onlinewebfonts.com/c/69dbc1186412d7831b88d8a78a360360?family=DIN+Condensed+Web);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+
+div{
+  height: 100%;
+  background: url("cover.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
- display: flex;
- justify-content: center;
- align-items: center;
- background-color: rgb(29,79,150);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  font-size: 2.5vw;
+  font-family: "DIN Condensed Web"; src: url("http://db.onlinewebfonts.com/t/69dbc1186412d7831b88d8a78a360360.eot");
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  position:absolute;
+  top:13vh;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+
+h1{
+  font-size: 12vw;
+  line-height: 1px;
+  font-family: "DIN Condensed Web"; src: url("http://db.onlinewebfonts.com/t/69dbc1186412d7831b88d8a78a360360.eot");
+  text-align: center;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  padding: 5px;
+  position:absolute;
+  top: 20vh;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+
+
+
+.green{
+  color: #8db600;
+}
+
+.white{
+  color: white;
 }
